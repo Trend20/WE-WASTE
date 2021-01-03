@@ -307,3 +307,93 @@ nav ul li a{
     margin-top: 20px;
     font-size: 1rem;
 }
+
+/* faq */
+.faqs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(231, 229, 229);
+}
+
+.faqs-header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.faqs-header p{
+    text-transform: uppercase;
+    opacity: 0.3;
+}
+
+.faqs-header h3{
+    text-transform: uppercase;
+    line-height: 2;
+    font-size: 1.8rem;
+    font-weight: 400;
+}
+
+.card-section{
+    display: flex;
+    margin-left: 30px;
+    width: 90%;
+    margin-top: 30px;
+    justify-content: center;
+    padding: 20px;
+}
+
+.card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: #fff;
+    width: 30%;
+    margin-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.card h3{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+}
+
+.card p{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+    letter-spacing: 2;
+    padding-bottom: 20px;
+}
+
+.faqs button{
+    margin-top: 30px;
+    padding: 20px;
+    width: 15%;
+    font-weight: 700;
+    justify-content: center;
+    align-items: center;
+    text-transform: uppercase;
+    color: #fff;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    background: #2675c0;
+}
