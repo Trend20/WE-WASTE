@@ -15,6 +15,20 @@ body{
     overflow-x: hidden;
 }
 
+.hero{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    background: url(../img/background3.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+    background-color: rgb(44, 43, 43);
+    background-blend-mode: overlay;
+    opacity: 1;
+    padding-bottom: 50px;
+}
+
 
 header{
     display: flex;
@@ -22,29 +36,93 @@ header{
     align-items: center;
     width: 100%;
     padding: 30px;
+    position: fixed;
+}
+
+.logo{
+    width: 20%;
+    display: flex;
+}
+
+.logo img{
+    display: flex;
+    width: 50%;
 }
 
 nav{
     display: flex;
-    width: 50%;
-    justify-content: center;
+    width: 80%;
+    justify-content: flex-end;
     align-items: center;
+    margin-top: 20px;
 }
 
 nav ul{
     display: flex;
-    width: 100%;
+    width: 80%;
 }
 
 nav ul li{
     display: flex;
-    justify-content: space-between;
+    padding: 20px;
     align-items: center;
-    width: 100%;
+    justify-content: center;
 }
 
 nav ul li a{
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: .8rem;
+    color: #fff;
+}
+
+.active{
+    color: rgb(49, 168, 95);
+}
+
+
+/* hero-text */
+.hero-text{
+    display: flex;
+    flex-direction: column;
+    margin-top: 280px;
+    margin-left: 40px;
+    width: 50%;
+    color: #fff;
+    padding-bottom: 50px;
+}
+
+.hero-text h3{
+    font-size: 3rem;
+    width: 80%;
+    display: flex;
+    font-weight: 400;
+}
+
+.hero-text p{
+    display: flex;
+    width: 100%;
+    font-size: 1.3rem;
+    line-height: 1.6;
+    margin-top: 20px;
+}
+
+.hero-text button{
+    display: flex;
+    padding: 20px;
+    width: 30%;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    outline: none;
+    border-radius: 50px;
+    margin-top: 20px;
+    background: rgb(19, 84, 158);
+    color: #fff;
+    font-weight: 500;
+    text-transform: uppercase;
 }
