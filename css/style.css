@@ -209,3 +209,28 @@ nav ul li a{
 .content-text p{
     margin-top: 10px;
 }
+
+
+/* banner */
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.banner-text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin-left: 70px;
+    justify-content: center;
+}
+
+.banner-text h3{
+    font-size: 2rem;
+    font-weight: 400;
+}
