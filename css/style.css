@@ -38,6 +38,7 @@ header{
     width: 100%;
     padding: 30px;
     position: fixed;
+    z-index: 10;
 }
 
 .logo{
@@ -138,4 +139,27 @@ nav ul li a{
     align-items: center;
     flex-direction: column;
     width: 100%;
+    padding-top: 100px;
+}
+
+.service-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.service-head p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.2;
+}
+
+.service-head h3{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 500;
 }
