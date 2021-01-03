@@ -36,14 +36,17 @@ header{
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 30px;
+    padding: 12px;
     position: fixed;
     z-index: 10;
+    background: #1b1b1b;
 }
 
 .logo{
     width: 20%;
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .logo img{
@@ -140,6 +143,7 @@ nav ul li a{
     flex-direction: column;
     width: 100%;
     padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 .service-head{
@@ -162,4 +166,46 @@ nav ul li a{
     font-size: 2rem;
     margin-top: 10px;
     font-weight: 500;
+}
+
+.service-details{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 90%;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content h3{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.content h3:hover{
+    color: blue;
+}
+
+.content-text{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text p{
+    margin-top: 10px;
 }
