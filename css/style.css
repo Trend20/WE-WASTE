@@ -244,3 +244,18 @@ nav ul li a{
     font-weight: 400;
 }
 
+
+.banner-image{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-image img{
+    display: flex;
+    width: 85%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
