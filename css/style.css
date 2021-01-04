@@ -551,7 +551,7 @@ nav ul li a{
 
 .title h3{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     text-align: center;
 }
@@ -566,3 +566,108 @@ nav ul li a{
 }
 
 /* footer */
+
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: #000;
+    color: #fff;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 30px;
+}
+
+.summary img{
+    width: 20%;
+    display: flex;
+}
+
+.summary p{
+    display: flex;
+    margin-top: 20px;
+    line-height: 1.5;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
+.location p{
+    opacity: 1;
+    font-size: 1.3rem;
+}
+
+.location a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#email{
+    color: rgb(68, 129, 209);
+}
+
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 30%;
+}
+
+.recent-news h3{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.alert p{
+    margin-top: 5px;
+}
+
+.date{
+    color: rgb(34, 109, 179);
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+    width: 30%;
+}
+
+
+#form h3{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 20px;
+}
+
+.form-group input{
+    display: flex;
+    padding: 15px;
+    margin-top: -10px;
+}
