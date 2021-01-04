@@ -517,3 +517,16 @@ nav ul li a{
     justify-content: center;
     align-items: center;
 }
+
+.counts h1{
+    font-size: 4rem;
+    color: rgb(216, 67, 67);
+    opacity: 0.3;
+    font-weight: 400;
+}
+
+.counts p{
+    text-transform: uppercase;
+    margin-top: 10px;
+    opacity: 0.5;
+}
