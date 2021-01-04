@@ -429,4 +429,91 @@ nav ul li a{
 .testimonials{
     display: flex;
     flex-direction: column;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    margin-left: 40px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.testimonial-head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.testimonial-head p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    opacity: 0.3;
+    font-weight: 300;
+}
+
+.testimonial-head h3{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    margin-top: 3px;
+    line-height: 2;
+    font-weight: 500;
+}
+
+.testimonial-text{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    flex-direction: row;
+    width: 100%;
+}
+
+.testimony{
+    display: flex;
+    width: 40%;
+    justify-content: center;
+}
+
+.testimony i{
+    margin-right: 50px;
+    font-size: 2rem;
+    color: blue;
+}
+
+.testimony-content{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.testimony-content p{
+    line-height: 1.5;
+    opacity: 0.5;
+}
+
+.testimony-content h5{
+    margin-top: 20px;
+}
+
+
+/* countdwown */
+
+.countdown{
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 30px;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(214, 212, 212);
+}
+
+.counts{
+    display: flex;
+    flex-direction: column;
+    width: 20%;
+    margin-left: 30px;
+    justify-content: center;
+    align-items: center;
 }
