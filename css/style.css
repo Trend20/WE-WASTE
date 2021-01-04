@@ -377,6 +377,8 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     width: 100%;
+    font-size: 1.2rem;
+    opacity: 0.6;
     text-align: center;
     letter-spacing: 2;
     padding-bottom: 20px;
@@ -396,4 +398,35 @@ nav ul li a{
     border-radius: 50px;
     cursor: pointer;
     background: #2675c0;
+}
+
+
+/* note */
+.note{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background: url(../img/tractor5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(83, 80, 80);
+    background-blend-mode: overlay;
+    opacity: 0.8;
+}
+
+.note p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+    padding: 100px;
+    color: #fff;
+    font-size: 3rem;
+    text-align: center;
+}
+
+.testimonials{
+    display: flex;
+    flex-direction: column;
 }
