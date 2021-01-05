@@ -216,3 +216,157 @@ nav ul li a{
 .content-text p{
     margin-top: 10px;
 }
+
+
+/* footer */
+
+#footer{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    background: rgb(10, 10, 10);
+    color: #fff;
+    padding-top: 150px;
+    padding-bottom: 30px;
+}
+
+.summary{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 30%;
+    margin-right: 30px;
+    margin-left: 50px;
+}
+
+.summary img{
+    width: 30%;
+    display: flex;
+}
+
+.summary p{
+    display: flex;
+    margin-top: 20px;
+    line-height: 1.5;
+    width: 100%;
+    opacity: 0.5;
+}
+
+.location{
+    display: flex;
+    flex-direction: column;
+}
+
+.location p{
+    opacity: 1;
+    font-size: 1.3rem;
+}
+
+.location a{
+    margin-top: 10px;
+    text-decoration: none;
+    color: #fff;
+}
+
+#email{
+    color: #1772bd;
+}
+
+.recent-news{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 30%;
+}
+
+.recent-news h3{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.alert{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin-top: 30px;
+}
+
+.alert p{
+    margin-top: 5px;
+}
+
+.date{
+    color: #1772bd;
+}
+
+#form{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    width: 30%;
+}
+
+
+#form h3{
+    font-weight: 300;
+    font-size: 1.3rem;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+    margin-top: 20px;
+}
+
+.form-group input{
+    display: flex;
+    padding: 15px;
+    margin-top: -10px;
+    outline: none;
+    border: none;
+    background: #1b1b1b;
+}
+
+
+.form-group input::placeholder{
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#message{
+    display: flex;
+    padding: 15px;
+    background: #1b1b1b;
+    outline: none;
+    border: none;
+    opacity: 0.5;
+    font-size: 1.3rem;
+    color: #fff;
+}
+
+#form button{
+    margin-top: 30px;
+    width: 45%;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    background: #1772bd;
+    padding: 20px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+}
+
+.copyright{
+    display: flex;
+    background: #000;
+    padding: 20px;
+}
+
+.copyright p{
+    display: flex;
+    color: #fff;
+    opacity: 0.7;
+}
