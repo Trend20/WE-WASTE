@@ -19,7 +19,7 @@ body{
     display: flex;
     width: 100%;
     flex-direction: column;
-    background: url(../../img/background1.jpeg);
+    background: url(../../img/background3.jpeg);
     background-size: cover;
     background-repeat: no-repeat;
     height: 95vh;
@@ -140,84 +140,75 @@ nav ul li a{
     opacity: 0.5;
 }
 
-/* services section */
-
-.services{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    width: 100%;
+/* price contents */
+.price-grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
     padding-top: 100px;
     padding-bottom: 100px;
-}
-
-.service-head{
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
+    width: 95%;
     justify-content: center;
-}
-
-.service-head p{
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 300;
-    opacity: 0.2;
-}
-
-.service-head h3{
-    text-transform: capitalize;
-    font-size: 2rem;
-    margin-top: 10px;
-    font-weight: 500;
-}
-
-.service-details{
-    display: flex;
-    margin-top: 50px;
+    align-items: center;
     margin-left: 40px;
-    width: 90%;
-    justify-content: center;
 }
 
-.content{
+.grid-contents{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
-.content img{
+    border: 2px solid #1772bd;
     width: 100%;
+    padding: 30px;
+    align-items: center;
 }
 
-.content h3{
-    margin-top: 20px;
-    cursor: pointer;
+.grid-head{
+    display: flex;
+    flex-direction: column;
+    padding-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-head h3{
     font-weight: 500;
 }
 
 
-.content h3:hover{
-    color: blue;
+.grid-head h1{
+    font-weight: 500;
+    margin-top: 10px;
+    font-size: 3rem;
+    color: #df3e3e;
+    opacity: 0.3;
 }
 
-.content-text{
-    margin-top: 10px;
+.grid-body{
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
     flex-direction: column;
+    margin-top: 30px;
 }
 
-.content-text p{
+.grid-body p{
     margin-top: 10px;
+    font-size: .8rem;
 }
 
-
+.grid-body button{
+    margin-top: 20px;
+    padding: 20px;
+    width: 200px;
+    outline: none;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+    text-transform: uppercase;
+    background: #1d5cd3;
+    cursor: pointer;
+}
 /* footer */
 
 #footer{
