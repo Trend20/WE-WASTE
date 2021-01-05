@@ -345,7 +345,7 @@ nav ul li a{
     opacity: 0.5;
 }
 
-.news{
+.team{
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -421,6 +421,27 @@ nav ul li a{
     margin-top: 10px;
 }
 
+.team-head{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.team-head p{
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 300;
+    opacity: 0.2;
+}
+
+.team-head h3{
+    text-transform: capitalize;
+    font-size: 2rem;
+    margin-top: 10px;
+    font-weight: 500;
+}
 
 
 /* footer */
