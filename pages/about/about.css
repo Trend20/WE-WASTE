@@ -345,6 +345,84 @@ nav ul li a{
     opacity: 0.5;
 }
 
+.news{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.title{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+}
+
+.title p{
+    opacity: 0.5;
+    font-size: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.service-details{
+    display: flex;
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 90%;
+    justify-content: center;
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.content img{
+    width: 100%;
+}
+
+.content h3{
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+
+.content h3:hover{
+    color: blue;
+}
+
+.content-text{
+    margin-top: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.content-text p{
+    margin-top: 10px;
+}
+
+
+
 /* footer */
 
 #footer{
