@@ -214,6 +214,83 @@ nav ul li a{
     font-size: 1rem;
 }
 
+/* progress */
+.progress{
+    display: flex;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background: rgb(245, 231, 231);
+}
+
+.progress-text{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+.progress-text h3{
+    font-size: 2.5rem;
+    font-weight: 400;
+}
+
+.progress-text p{
+    margin-top: 30px;
+    display: flex;
+    line-height: 2;
+    width: 80%;
+    opacity: 0.5;
+}
+
+.progress-bar{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.bar-container{
+        background-color: rgb(192, 192, 192); 
+        width: 80%; 
+        border-radius: 15px;
+}
+
+.skill-container{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.skill-container >p{
+    font-size: .8rem;
+}
+
+.skills { 
+    background-color: rgb(194, 163, 92); 
+    color: white; 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 20px; 
+    border-radius: 15px; 
+} 
+
+.commercial{
+    width: 50%; 
+}
+
+.waste{
+    width: 73%;
+}
+
+.treatment{
+    width: 43%;
+}
+
+.destruction{
+    width: 80%;
+}
 
 /* note */
 .note{
