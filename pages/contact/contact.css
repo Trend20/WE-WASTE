@@ -209,6 +209,83 @@ nav ul li a{
     background: #1d5cd3;
     cursor: pointer;
 }
+
+.contact-details{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.text-details{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    width: 30%;
+}
+
+.address{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.address h3{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.address p{
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.phones{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.phones h3{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.phone-numbers p{
+  opacity: 0.5;
+  margin-top: 10px;
+}
+
+.email-address{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.email-address h3{
+    font-weight: 500;
+    font-size: 2rem;
+}
+
+.email-address a{
+  text-decoration: none;
+  margin-top: 10px;
+  color: #1772bd;
+}
+
+.map{
+    display: flex;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+.map img{
+    width: 100%;
+}
 /* footer */
 
 #footer{
