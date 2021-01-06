@@ -338,7 +338,7 @@ nav ul li a{
 .form-group input{
     display: flex;
     padding: 15px;
-    margin-top: -10px;
+    margin-top: 10px;
     outline: none;
     border: none;
     background: #1b1b1b;
