@@ -55,6 +55,17 @@ header{
     width: 50%;
 }
 
+.fa-bars{
+    color: #fff;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
 nav{
     display: flex;
     width: 80%;
