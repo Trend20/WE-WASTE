@@ -3,7 +3,7 @@ const navbar = document.querySelector('.navbar');
 
 toggleBar.addEventListener('click', showNavbar);
 
-function showNavbar(){
+function showNavbar() {
     if (navbar.style.display === 'none') {
         navbar.style.display = 'block';
     } else {
