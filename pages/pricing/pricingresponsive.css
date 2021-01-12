@@ -1,0 +1,90 @@
+@media screen and (max-width: 480px) {
+    header {
+        background: #fff;
+        padding-bottom: 100px;
+    }
+    /* description */
+    .description {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        margin-left: 0px;
+    }
+    .description h3 {
+        display: flex;
+        width: 90%;
+        font-size: 1rem;
+        margin-top: 20px;
+    }
+    .description p {
+        margin-top: 30px;
+        width: 90%;
+        display: flex;
+        opacity: 0.5;
+    }
+    /* price contents */
+    .price-grid {
+        display: grid;
+        grid-template-columns: repeat(1, 2fr);
+        grid-gap: 10px;
+        padding-top: 50px;
+        padding-bottom: 20px;
+        width: 95%;
+        justify-content: center;
+        align-items: center;
+        margin-left: 0px;
+    }
+    .grid-contents {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: 3px solid #1772bd;
+        width: 95%;
+        padding: 30px;
+        align-items: center;
+        margin-left: 20px;
+    }
+    .grid-head {
+        display: flex;
+        flex-direction: column;
+        padding-top: 30px;
+        justify-content: center;
+        align-items: center;
+    }
+    .grid-head h3 {
+        font-weight: 500;
+    }
+    .grid-head h1 {
+        font-weight: 500;
+        margin-top: 10px;
+        font-size: 3rem;
+        color: #df3e3e;
+        opacity: 0.3;
+    }
+    .grid-body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 30px;
+    }
+    .grid-body p {
+        margin-top: 10px;
+        font-size: .8rem;
+    }
+    .grid-body button {
+        margin-top: 20px;
+        padding: 20px;
+        width: 200px;
+        outline: none;
+        border: none;
+        border-radius: 50px;
+        color: #fff;
+        text-transform: uppercase;
+        background: #1d5cd3;
+        cursor: pointer;
+    }
+}
