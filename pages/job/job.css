@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     width: 100%;
     flex-direction: column;
     overflow-x: hidden;
 }
 
-.hero{
+.hero {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -30,8 +30,7 @@ body{
     padding-bottom: 10px;
 }
 
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,38 +42,49 @@ header{
     background: #f6f3f3;
 }
 
-.logo{
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     display: flex;
     width: 50%;
 }
 
-nav{
+.fa-bars {
+    color: #fff;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
     display: flex;
     width: 80%;
     justify-content: flex-end;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     width: 80%;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
 
-nav ul li a{
+nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,13 +95,14 @@ nav ul li a{
     color: rgb(78, 75, 75);
 }
 
-.active{
+.active {
     color: rgb(49, 168, 95);
 }
 
 
 /* hero-text */
-.hero-text{
+
+.hero-text {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -102,14 +113,14 @@ nav ul li a{
     padding-bottom: 50px;
 }
 
-.hero-text h3{
+.hero-text h3 {
     font-size: 3rem;
     width: 80%;
     display: flex;
     font-weight: 400;
 }
 
-.hero-text p{
+.hero-text p {
     display: flex;
     width: 100%;
     font-size: 1.3rem;
@@ -117,8 +128,10 @@ nav ul li a{
     margin-top: 20px;
 }
 
+
 /* intro-styles */
-.intro{
+
+.intro {
     display: flex;
     width: 100%;
     padding-top: 100px;
@@ -127,34 +140,36 @@ nav ul li a{
     background: rgb(236, 227, 227);
 }
 
-.intro-text{
+.intro-text {
     display: flex;
     flex-direction: column;
     margin-left: 50px;
     width: 50%;
 }
 
-.intro-text h3{
+.intro-text h3 {
     font-size: 3rem;
     font-weight: 400;
     width: 90%;
 }
 
-.intro-text p{
+.intro-text p {
     margin-top: 20px;
     opacity: 0.5;
     line-height: 2;
 }
 
-.intro-image{
+.intro-image {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 50%;
 }
 
+
 /* description */
-.description{
+
+.description {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -163,22 +178,23 @@ nav ul li a{
     margin-left: 50px;
 }
 
-.description h3{
+.description h3 {
     display: flex;
     width: 80%;
     font-size: 2rem;
     margin-top: 50px;
 }
 
-.description p{
+.description p {
     margin-top: 30px;
     width: 70%;
     opacity: 0.5;
 }
 
+
 /* job cards */
 
-.job-cards{
+.job-cards {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-gap: 15px;
@@ -186,37 +202,37 @@ nav ul li a{
     width: 90%;
 }
 
-.card-text{
+.card-text {
     background: rgb(236, 227, 227);
     padding: 15px;
     display: flex;
     flex-direction: column;
 }
 
-.card-text:hover{
+.card-text:hover {
     border: 2px solid #1772bd;
     background: #fff;
     transition-delay: 0.1s;
 }
 
-.card-text h3{
+.card-text h3 {
     display: flex;
     font-weight: 500;
     margin-left: 30px;
 }
 
-.postings{
+.postings {
     display: flex;
     margin-top: 20px;
     flex-direction: column;
     margin-left: 30px;
 }
 
-.postings p{
+.postings p {
     margin-top: 5px;
 }
 
-.card-text button{
+.card-text button {
     margin-top: 50px;
     width: 35%;
     outline: none;
@@ -233,9 +249,10 @@ nav ul li a{
     margin-bottom: 30px;
 }
 
+
 /* footer */
 
-#footer{
+#footer {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -245,7 +262,7 @@ nav ul li a{
     padding-bottom: 30px;
 }
 
-.summary{
+.summary {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -255,12 +272,12 @@ nav ul li a{
     margin-left: 50px;
 }
 
-.summary img{
+.summary img {
     width: 30%;
     display: flex;
 }
 
-.summary p{
+.summary p {
     display: flex;
     margin-top: 20px;
     line-height: 1.5;
@@ -268,74 +285,73 @@ nav ul li a{
     opacity: 0.5;
 }
 
-.location{
+.location {
     display: flex;
     flex-direction: column;
 }
 
-.location p{
+.location p {
     opacity: 1;
     font-size: 1.3rem;
 }
 
-.location a{
+.location a {
     margin-top: 10px;
     text-decoration: none;
     color: #fff;
 }
 
-#email{
+#email {
     color: #1772bd;
 }
 
-.recent-news{
+.recent-news {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
 }
 
-.recent-news h3{
+.recent-news h3 {
     font-weight: 300;
     font-size: 1.3rem;
 }
 
-.alert{
+.alert {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin-top: 30px;
 }
 
-.alert p{
+.alert p {
     margin-top: 5px;
 }
 
-.date{
+.date {
     color: #1772bd;
 }
 
-#form{
+#form {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
 }
 
-
-#form h3{
+#form h3 {
     font-weight: 300;
     font-size: 1.3rem;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     width: 95%;
     margin-top: 20px;
 }
 
-.form-group input{
+.form-group input {
     display: flex;
     padding: 15px;
     margin-top: 10px;
@@ -344,13 +360,12 @@ nav ul li a{
     background: #1b1b1b;
 }
 
-
-.form-group input::placeholder{
+.form-group input::placeholder {
     font-weight: 500;
     font-size: 1rem;
 }
 
-#message{
+#message {
     display: flex;
     padding: 15px;
     background: #1b1b1b;
@@ -361,7 +376,7 @@ nav ul li a{
     color: #fff;
 }
 
-#form button{
+#form button {
     margin-top: 30px;
     width: 45%;
     font-weight: 500;
@@ -374,13 +389,13 @@ nav ul li a{
     border-radius: 50px;
 }
 
-.copyright{
+.copyright {
     display: flex;
     background: #000;
     padding: 20px;
 }
 
-.copyright p{
+.copyright p {
     display: flex;
     color: #fff;
     opacity: 0.7;

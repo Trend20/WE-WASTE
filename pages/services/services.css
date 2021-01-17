@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     width: 100%;
     flex-direction: column;
     overflow-x: hidden;
 }
 
-.hero{
+.hero {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -30,8 +30,7 @@ body{
     padding-bottom: 10px;
 }
 
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,38 +42,49 @@ header{
     background: #f6f3f3;
 }
 
-.logo{
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     display: flex;
     width: 50%;
 }
 
-nav{
+.fa-bars {
+    color: #fff;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
     display: flex;
     width: 80%;
     justify-content: flex-end;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     width: 80%;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
 
-nav ul li a{
+nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,13 +95,14 @@ nav ul li a{
     color: rgb(78, 75, 75);
 }
 
-.active{
+.active {
     color: rgb(49, 168, 95);
 }
 
 
 /* hero-text */
-.hero-text{
+
+.hero-text {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -102,14 +113,14 @@ nav ul li a{
     padding-bottom: 50px;
 }
 
-.hero-text h3{
+.hero-text h3 {
     font-size: 3rem;
     width: 80%;
     display: flex;
     font-weight: 400;
 }
 
-.hero-text p{
+.hero-text p {
     display: flex;
     width: 100%;
     font-size: 1.3rem;
@@ -117,8 +128,10 @@ nav ul li a{
     margin-top: 20px;
 }
 
+
 /* description */
-.description{
+
+.description {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -127,22 +140,23 @@ nav ul li a{
     margin-left: 50px;
 }
 
-.description h3{
+.description h3 {
     display: flex;
     width: 80%;
     font-size: 2rem;
     margin-top: 50px;
 }
 
-.description p{
+.description p {
     margin-top: 30px;
     width: 70%;
     opacity: 0.5;
 }
 
+
 /* services section */
 
-.services{
+.services {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -152,7 +166,7 @@ nav ul li a{
     padding-bottom: 100px;
 }
 
-.service-head{
+.service-head {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -160,21 +174,21 @@ nav ul li a{
     justify-content: center;
 }
 
-.service-head p{
+.service-head p {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 300;
     opacity: 0.2;
 }
 
-.service-head h3{
+.service-head h3 {
     text-transform: capitalize;
     font-size: 2rem;
     margin-top: 10px;
     font-weight: 500;
 }
 
-.service-details{
+.service-details {
     display: flex;
     margin-top: 50px;
     margin-left: 40px;
@@ -182,7 +196,7 @@ nav ul li a{
     justify-content: center;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -190,22 +204,21 @@ nav ul li a{
     padding: 10px;
 }
 
-.content img{
+.content img {
     width: 100%;
 }
 
-.content h3{
+.content h3 {
     margin-top: 20px;
     cursor: pointer;
     font-weight: 500;
 }
 
-
-.content h3:hover{
+.content h3:hover {
     color: blue;
 }
 
-.content-text{
+.content-text {
     margin-top: 10px;
     justify-content: center;
     align-items: center;
@@ -213,14 +226,14 @@ nav ul li a{
     flex-direction: column;
 }
 
-.content-text p{
+.content-text p {
     margin-top: 10px;
 }
 
 
 /* footer */
 
-#footer{
+#footer {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -230,7 +243,7 @@ nav ul li a{
     padding-bottom: 30px;
 }
 
-.summary{
+.summary {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -240,12 +253,12 @@ nav ul li a{
     margin-left: 50px;
 }
 
-.summary img{
+.summary img {
     width: 30%;
     display: flex;
 }
 
-.summary p{
+.summary p {
     display: flex;
     margin-top: 20px;
     line-height: 1.5;
@@ -253,74 +266,73 @@ nav ul li a{
     opacity: 0.5;
 }
 
-.location{
+.location {
     display: flex;
     flex-direction: column;
 }
 
-.location p{
+.location p {
     opacity: 1;
     font-size: 1.3rem;
 }
 
-.location a{
+.location a {
     margin-top: 10px;
     text-decoration: none;
     color: #fff;
 }
 
-#email{
+#email {
     color: #1772bd;
 }
 
-.recent-news{
+.recent-news {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
 }
 
-.recent-news h3{
+.recent-news h3 {
     font-weight: 300;
     font-size: 1.3rem;
 }
 
-.alert{
+.alert {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin-top: 30px;
 }
 
-.alert p{
+.alert p {
     margin-top: 5px;
 }
 
-.date{
+.date {
     color: #1772bd;
 }
 
-#form{
+#form {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
 }
 
-
-#form h3{
+#form h3 {
     font-weight: 300;
     font-size: 1.3rem;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     width: 95%;
     margin-top: 20px;
 }
 
-.form-group input{
+.form-group input {
     display: flex;
     padding: 15px;
     margin-top: 10px;
@@ -329,13 +341,12 @@ nav ul li a{
     background: #1b1b1b;
 }
 
-
-.form-group input::placeholder{
+.form-group input::placeholder {
     font-weight: 500;
     font-size: 1rem;
 }
 
-#message{
+#message {
     display: flex;
     padding: 15px;
     background: #1b1b1b;
@@ -346,7 +357,7 @@ nav ul li a{
     color: #fff;
 }
 
-#form button{
+#form button {
     margin-top: 30px;
     width: 45%;
     font-weight: 500;
@@ -359,13 +370,13 @@ nav ul li a{
     border-radius: 50px;
 }
 
-.copyright{
+.copyright {
     display: flex;
     background: #000;
     padding: 20px;
 }
 
-.copyright p{
+.copyright p {
     display: flex;
     color: #fff;
     opacity: 0.7;

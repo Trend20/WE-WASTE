@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-body{
+body {
     font-family: 'Montserrat', sans-serif;
 }
 
-.container{
+.container {
     display: flex;
     width: 100%;
     flex-direction: column;
     overflow-x: hidden;
 }
 
-.hero{
+.hero {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -30,8 +30,7 @@ body{
     padding-bottom: 10px;
 }
 
-
-header{
+header {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -43,38 +42,49 @@ header{
     background: #f6f3f3;
 }
 
-.logo{
+.logo {
     width: 20%;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.logo img{
+.logo img {
     display: flex;
     width: 50%;
 }
 
-nav{
+.fa-bars {
+    color: #fff;
+    width: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: flex-end;
+    font-size: 2rem;
+    cursor: pointer;
+    display: none;
+}
+
+nav {
     display: flex;
     width: 80%;
     justify-content: flex-end;
     align-items: center;
 }
 
-nav ul{
+nav ul {
     display: flex;
     width: 80%;
 }
 
-nav ul li{
+nav ul li {
     display: flex;
     padding: 20px;
     align-items: center;
     justify-content: center;
 }
 
-nav ul li a{
+nav ul li a {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,13 +95,14 @@ nav ul li a{
     color: rgb(78, 75, 75);
 }
 
-.active{
+.active {
     color: rgb(49, 168, 95);
 }
 
 
 /* hero-text */
-.hero-text{
+
+.hero-text {
     display: flex;
     flex-direction: column;
     position: absolute;
@@ -102,14 +113,14 @@ nav ul li a{
     padding-bottom: 50px;
 }
 
-.hero-text h3{
+.hero-text h3 {
     font-size: 3rem;
     width: 80%;
     display: flex;
     font-weight: 400;
 }
 
-.hero-text p{
+.hero-text p {
     display: flex;
     width: 100%;
     font-size: 1.3rem;
@@ -117,9 +128,10 @@ nav ul li a{
     margin-top: 20px;
 }
 
+
 /* banner */
 
-.banner{
+.banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -129,7 +141,7 @@ nav ul li a{
     background: rgb(224, 222, 222);
 }
 
-.banner-text{
+.banner-text {
     display: flex;
     flex-direction: column;
     width: 50%;
@@ -137,12 +149,12 @@ nav ul li a{
     justify-content: center;
 }
 
-.banner-text h3{
+.banner-text h3 {
     font-size: 2rem;
     font-weight: 500;
 }
 
-.banner-text p{
+.banner-text p {
     font-size: 1rem;
     margin-top: 10px;
     line-height: 1.8;
@@ -150,15 +162,14 @@ nav ul li a{
     font-weight: 400;
 }
 
-
-.banner-image{
+.banner-image {
     display: flex;
     width: 50%;
     justify-content: center;
     align-items: center;
 }
 
-.banner-image img{
+.banner-image img {
     display: flex;
     width: 85%;
     justify-content: center;
@@ -166,7 +177,7 @@ nav ul li a{
     height: 400px;
 }
 
-.mission{
+.mission {
     display: flex;
     width: 100%;
     margin-left: 30px;
@@ -175,8 +186,7 @@ nav ul li a{
     padding-bottom: 100px;
 }
 
-
-.mission-image{
+.mission-image {
     display: flex;
     width: 50%;
     justify-content: center;
@@ -184,13 +194,13 @@ nav ul li a{
     align-items: center;
 }
 
-.mission-image img{
+.mission-image img {
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.mission-text{
+.mission-text {
     display: flex;
     justify-content: center;
     width: 50%;
@@ -198,24 +208,26 @@ nav ul li a{
     margin-top: -150px;
 }
 
-.mission-text h3{
+.mission-text h3 {
     font-size: 2rem;
     font-weight: 500;
 }
 
-.mission-text p{
+.mission-text p {
     margin-top: 30px;
     line-height: 1.5;
     width: 90%;
 }
 
-.mission-text h5{
+.mission-text h5 {
     margin-top: 20px;
     font-size: 1rem;
 }
 
+
 /* progress */
-.progress{
+
+.progress {
     display: flex;
     width: 100%;
     padding-top: 100px;
@@ -223,19 +235,19 @@ nav ul li a{
     background: rgb(245, 231, 231);
 }
 
-.progress-text{
+.progress-text {
     display: flex;
     width: 50%;
     flex-direction: column;
     margin-left: 50px;
 }
 
-.progress-text h3{
+.progress-text h3 {
     font-size: 2.5rem;
     font-weight: 400;
 }
 
-.progress-text p{
+.progress-text p {
     margin-top: 30px;
     display: flex;
     line-height: 2;
@@ -243,19 +255,19 @@ nav ul li a{
     opacity: 0.5;
 }
 
-.progress-bar{
+.progress-bar {
     display: flex;
     flex-direction: column;
     width: 50%;
 }
 
-.bar-container{
-        background-color: rgb(192, 192, 192); 
-        width: 80%; 
-        border-radius: 15px;
+.bar-container {
+    background-color: rgb(192, 192, 192);
+    width: 80%;
+    border-radius: 15px;
 }
 
-.skill-container{
+.skill-container {
     display: flex;
     width: 80%;
     justify-content: space-between;
@@ -263,37 +275,39 @@ nav ul li a{
     margin-top: 30px;
 }
 
-.skill-container >p{
+.skill-container>p {
     font-size: .8rem;
 }
 
-.skills { 
-    background-color: rgb(194, 163, 92); 
-    color: white; 
-    padding: 1%; 
-    text-align: right; 
-    font-size: 20px; 
-    border-radius: 15px; 
-} 
-
-.commercial{
-    width: 50%; 
+.skills {
+    background-color: rgb(194, 163, 92);
+    color: white;
+    padding: 1%;
+    text-align: right;
+    font-size: 20px;
+    border-radius: 15px;
 }
 
-.waste{
+.commercial {
+    width: 50%;
+}
+
+.waste {
     width: 73%;
 }
 
-.treatment{
+.treatment {
     width: 43%;
 }
 
-.destruction{
+.destruction {
     width: 80%;
 }
 
+
 /* note */
-.note{
+
+.note {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -306,7 +320,7 @@ nav ul li a{
     opacity: 0.8;
 }
 
-.note p{
+.note p {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -317,7 +331,7 @@ nav ul li a{
     text-align: center;
 }
 
-.testimonials{
+.testimonials {
     display: flex;
     flex-direction: column;
     padding-top: 100px;
@@ -328,7 +342,7 @@ nav ul li a{
     align-items: center;
 }
 
-.testimonial-head{
+.testimonial-head {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -336,14 +350,14 @@ nav ul li a{
     flex-direction: column;
 }
 
-.testimonial-head p{
+.testimonial-head p {
     text-transform: uppercase;
     font-size: 1rem;
     opacity: 0.3;
     font-weight: 300;
 }
 
-.testimonial-head h3{
+.testimonial-head h3 {
     font-size: 2.5rem;
     text-transform: capitalize;
     margin-top: 3px;
@@ -351,7 +365,7 @@ nav ul li a{
     font-weight: 500;
 }
 
-.testimonial-text{
+.testimonial-text {
     display: flex;
     margin-top: 30px;
     justify-content: center;
@@ -359,37 +373,37 @@ nav ul li a{
     width: 100%;
 }
 
-.testimony{
+.testimony {
     display: flex;
     width: 40%;
     justify-content: center;
 }
 
-.testimony i{
+.testimony i {
     margin-right: 50px;
     font-size: 2rem;
     color: blue;
 }
 
-.testimony-content{
+.testimony-content {
     display: flex;
     flex-direction: column;
     width: 80%;
 }
 
-.testimony-content p{
+.testimony-content p {
     line-height: 1.5;
     opacity: 0.5;
 }
 
-.testimony-content h5{
+.testimony-content h5 {
     margin-top: 20px;
 }
 
 
 /* countdwown */
 
-.countdown{
+.countdown {
     display: flex;
     width: 100%;
     padding-top: 100px;
@@ -400,7 +414,7 @@ nav ul li a{
     background: rgb(214, 212, 212);
 }
 
-.counts{
+.counts {
     display: flex;
     flex-direction: column;
     width: 20%;
@@ -409,20 +423,20 @@ nav ul li a{
     align-items: center;
 }
 
-.counts h1{
+.counts h1 {
     font-size: 4rem;
     color: rgb(216, 67, 67);
     opacity: 0.3;
     font-weight: 400;
 }
 
-.counts p{
+.counts p {
     text-transform: uppercase;
     margin-top: 10px;
     opacity: 0.5;
 }
 
-.team{
+.team {
     display: flex;
     width: 100%;
     flex-direction: column;
@@ -432,7 +446,7 @@ nav ul li a{
     padding-bottom: 100px;
 }
 
-.title{
+.title {
     margin-top: 20px;
     display: flex;
     justify-content: center;
@@ -440,14 +454,14 @@ nav ul li a{
     flex-direction: column;
 }
 
-.title h3{
+.title h3 {
     display: flex;
     justify-content: space-between;
     align-items: center;
     text-align: center;
 }
 
-.title p{
+.title p {
     opacity: 0.5;
     font-size: 1rem;
     display: flex;
@@ -456,7 +470,7 @@ nav ul li a{
     text-align: center;
 }
 
-.service-details{
+.service-details {
     display: flex;
     margin-top: 50px;
     margin-left: 40px;
@@ -464,7 +478,7 @@ nav ul li a{
     justify-content: center;
 }
 
-.content{
+.content {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -472,21 +486,20 @@ nav ul li a{
     padding: 10px;
 }
 
-.content img{
+.content img {
     width: 100%;
 }
 
-.content h3{
+.content h3 {
     margin-top: 20px;
     cursor: pointer;
 }
 
-
-.content h3:hover{
+.content h3:hover {
     color: blue;
 }
 
-.content-text{
+.content-text {
     margin-top: 10px;
     justify-content: center;
     align-items: center;
@@ -494,11 +507,11 @@ nav ul li a{
     flex-direction: column;
 }
 
-.content-text p{
+.content-text p {
     margin-top: 10px;
 }
 
-.team-head{
+.team-head {
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -506,14 +519,14 @@ nav ul li a{
     justify-content: center;
 }
 
-.team-head p{
+.team-head p {
     text-transform: uppercase;
     font-size: 1rem;
     font-weight: 300;
     opacity: 0.2;
 }
 
-.team-head h3{
+.team-head h3 {
     text-transform: capitalize;
     font-size: 2rem;
     margin-top: 10px;
@@ -523,7 +536,7 @@ nav ul li a{
 
 /* footer */
 
-#footer{
+#footer {
     display: flex;
     width: 100%;
     justify-content: center;
@@ -533,7 +546,7 @@ nav ul li a{
     padding-bottom: 30px;
 }
 
-.summary{
+.summary {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -543,12 +556,12 @@ nav ul li a{
     margin-left: 50px;
 }
 
-.summary img{
+.summary img {
     width: 30%;
     display: flex;
 }
 
-.summary p{
+.summary p {
     display: flex;
     margin-top: 20px;
     line-height: 1.5;
@@ -556,74 +569,73 @@ nav ul li a{
     opacity: 0.5;
 }
 
-.location{
+.location {
     display: flex;
     flex-direction: column;
 }
 
-.location p{
+.location p {
     opacity: 1;
     font-size: 1.3rem;
 }
 
-.location a{
+.location a {
     margin-top: 10px;
     text-decoration: none;
     color: #fff;
 }
 
-#email{
+#email {
     color: #1772bd;
 }
 
-.recent-news{
+.recent-news {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
 }
 
-.recent-news h3{
+.recent-news h3 {
     font-weight: 300;
     font-size: 1.3rem;
 }
 
-.alert{
+.alert {
     display: flex;
     flex-direction: column;
     width: 90%;
     margin-top: 30px;
 }
 
-.alert p{
+.alert p {
     margin-top: 5px;
 }
 
-.date{
+.date {
     color: #1772bd;
 }
 
-#form{
+#form {
     display: flex;
     flex-direction: column;
     margin-top: 50px;
     width: 30%;
 }
 
-
-#form h3{
+#form h3 {
     font-weight: 300;
     font-size: 1.3rem;
 }
 
-.form-group{
+.form-group {
     display: flex;
     flex-direction: column;
     width: 95%;
     margin-top: 20px;
 }
 
-.form-group input{
+.form-group input {
     display: flex;
     padding: 15px;
     margin-top: 10px;
@@ -632,13 +644,12 @@ nav ul li a{
     background: #1b1b1b;
 }
 
-
-.form-group input::placeholder{
+.form-group input::placeholder {
     font-weight: 500;
     font-size: 1rem;
 }
 
-#message{
+#message {
     display: flex;
     padding: 15px;
     background: #1b1b1b;
@@ -649,7 +660,7 @@ nav ul li a{
     color: #fff;
 }
 
-#form button{
+#form button {
     margin-top: 30px;
     width: 45%;
     font-weight: 500;
@@ -662,13 +673,13 @@ nav ul li a{
     border-radius: 50px;
 }
 
-.copyright{
+.copyright {
     display: flex;
     background: #000;
     padding: 20px;
 }
 
-.copyright p{
+.copyright p {
     display: flex;
     color: #fff;
     opacity: 0.7;
