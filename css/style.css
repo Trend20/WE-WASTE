@@ -354,7 +354,7 @@ nav ul li a {
 
 .card-section {
     display: flex;
-    margin-left: 30px;
+    margin-left: 0px;
     width: 90%;
     margin-top: 30px;
     justify-content: center;
@@ -368,7 +368,7 @@ nav ul li a {
     flex-direction: column;
     background: #fff;
     width: 30%;
-    margin-left: 20px;
+    margin-left: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
