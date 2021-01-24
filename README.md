@@ -1,5 +1,5 @@
 ![](img/takasc.png)
-# Car Spare Parts website.
+# Waste Management  website.
 **Site URL**: https://we-waste.trend20.vercel.app/
 
 ## Technologies used:
